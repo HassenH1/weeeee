@@ -1,3 +1,7 @@
+body {
+  font-family: sans-serif;
+}
+
 .head {
   height: 100vh;
   min-height: 500px;
@@ -9,9 +13,14 @@
   background-repeat: no-repeat;
 }
 
-h1, p {
+h1 {
   color: white;
   font-weight: bold;
+}
+
+h2 {
+  font-size-adjust: auto;
+  font-variant: inherit;
 }
 
 p.card-text {
