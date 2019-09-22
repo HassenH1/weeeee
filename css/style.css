@@ -1,0 +1,19 @@
+.head {
+  height: 100vh;
+  min-height: 500px;
+  background-image: url("../img/image1.jpg");
+  opacity: 0.8;
+  /* filter: brightness(20%); */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+h1, p {
+  color: white;
+  font-weight: bold;
+}
+
+p.card-text {
+  color: black;
+}
